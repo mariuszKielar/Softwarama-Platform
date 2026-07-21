@@ -1,11 +1,11 @@
 Currently I'm working on 4 nodes, bare metal Kubernetes home lab. Witch includes: 
-- [x] 4 x Linux Rocky machines.
-- [x] Ansible for hardening and configuration.
-- [x] Kubernetes(with Podman, Calico, containerd).  
-- [x] GitHub Actions - linting, build, testing, push my portfolio website image in GHCR. 
-- [x] MetalLB used for internal IP in my home LAN.
-- [x] GitOps - ArgoCD  - deployment to my staging and prod namespaces in K8s cluster.
-- [x] cert-manager for Private PKI and Let's Encrypt for TLS certifications.   
+- ✅ 4 x Linux Rocky machines.
+- ✅ Ansible for hardening and configuration.
+- ✅ Kubernetes(with Podman, Calico, containerd).  
+- ✅ GitHub Actions - linting, build, testing, push my portfolio website image in GHCR. 
+- ✅ MetalLB used for internal IP in my home LAN.
+- ✅ GitOps - ArgoCD  - deployment to my staging and prod namespaces in K8s cluster.
+- ✅ cert-manager for Private PKI and Let's Encrypt for TLS certifications.   
 - [ ] CloudFlare encrypted tunnel.
 - [ ] Falco - cybersecurity.
 - [ ] Sealed Secrets.
