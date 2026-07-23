@@ -28,7 +28,7 @@ Once the project is complete, this temporary README will be replaced with compre
 
 General Architecture
 
- <img src="diagrams-screenshots/generalArchSoftwarama.png" width="700">
+ <img src="../diagrams-screenshots/generalArchSoftwarama.png" width="700">
  
 
 ![Softwarama Architecture](generalArchSoftwarama.png)
