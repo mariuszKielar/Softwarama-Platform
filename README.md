@@ -31,7 +31,7 @@ General Architecture
  <img src="../diagrams-screenshots/generalArchSoftwarama.png" width="700">
  
 
-![Softwarama Architecture](generalArchSoftwarama.png)
+
 
 
 
