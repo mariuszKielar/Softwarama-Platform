@@ -26,7 +26,7 @@ The initial workload running on the cluster is the MVP version of my DevOps port
 
 Once the project is complete, this temporary README will be replaced with comprehensive documentation covering the architecture, implementation, CI/CD pipelines, security, and operational decisions.    
 
-General Architecture
+Softwarama Architecture
 
  <img src="../diagrams-screenshots/generalArchSoftwarama.png" width="700">
  
