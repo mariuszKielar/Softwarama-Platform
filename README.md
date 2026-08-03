@@ -5,7 +5,7 @@ I'm currently building a **4-node bare-metal Kubernetes home lab**. The project 
 * ✅ 4 × Rocky Linux machines
 * ✅ Ansible for system configuration and hardening
 * ✅ Kubernetes (kubeadm, containerd, Calico, Podman)
-* ✅ GitHub Actions for linting, building, testing, and pushing my portfolio website image to GHCR
+* ✅ GitHub Actions for linting, building, testing, Trivy scan and pushing my portfolio website image to GHCR
 * ✅ MetalLB for providing LoadBalancer IP addresses on my home LAN
 * ✅ Sealed Secrets
 * ✅ GitOps with Argo CD for automated deployments to staging and production namespaces
