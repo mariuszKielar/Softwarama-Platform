@@ -3,17 +3,17 @@
 I'm currently building a **4-node bare-metal Kubernetes home lab**. The project currently includes:
 
 * ✅ 4 × Rocky Linux machines
-* ✅ Ansible for system configuration and hardening
+* ✅ Ansible for system configuration and hardening RHEL9 CIS Level 1
 * ✅ Kubernetes (kubeadm, containerd, Calico, Podman)
 * ✅ GitHub Actions for linting, building, testing, Trivy scan and pushing my portfolio website image to GHCR
-* ✅ MetalLB for providing LoadBalancer IP addresses on my home LAN
+* ✅ GitOps with Argo CD for automated deployments to staging namespace/environment.Production is one click manual
+* ✅ MetalLB for providing LoadBalancer IP on my home LAN(internal use like ArgoCD, Grafana dasboards)
 * ✅ Sealed Secrets
-* ✅ GitOps with Argo CD for automated deployments to staging and production namespaces
 * ✅ cert-manager with a private PKI for TLS certificates used by internal services
 * ✅ Cloudflare Tunnel with TLS for secure public access to my domain
 * ✅ Prometheus for metrics collection
 * ✅ Grafana for monitoring dashboards
-* ✅ Loki for log aggregation
+* ✅ Loki for logs
  
 ### Planned additions
 
