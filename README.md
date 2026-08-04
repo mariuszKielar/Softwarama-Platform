@@ -4,7 +4,8 @@ I'm currently building a **4-node bare-metal Kubernetes home lab**. The project 
 
 * ✅ 4 × Rocky Linux machines
 * ✅ Ansible for system configuration and hardening RHEL9 CIS Level 1
-* ✅ Kubernetes (kubeadm, containerd, Calico, Podman)
+* ✅ Kubernetes (kubeadm, containerd, Podman)
+* ✅ Calico CNI with network policies
 * ✅ GitHub Actions for linting, building, testing, Trivy scan and pushing my portfolio website image to GHCR
 * ✅ GitOps with Argo CD for automated deployments to staging namespace/environment.Production is one click manual
 * ✅ MetalLB for providing LoadBalancer IP on my home LAN(internal use like ArgoCD, Grafana dasboards)
@@ -16,9 +17,11 @@ I'm currently building a **4-node bare-metal Kubernetes home lab**. The project 
 * ✅ Loki for logs
  
 ### Planned additions
-
+* [ ] Image signing with Cosign and Kyverno verification
 * [ ] Falco for runtime security
-* [ ] A backup solution (currently evaluating the available options)
+* [ ] Velero as backup solution paired with Storage Account in Azure
+* [ ] Network Policies with Calico 
+* [ ] Complete README.md
 
 This project is evolving continuously. As I gain more hands-on experience, I refine the architecture, improve the implementation, and replace earlier assumptions with better practices.
 
